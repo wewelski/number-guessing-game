@@ -10,6 +10,7 @@ let guessNum = parseInt(prompt('Now, guess the number'));
 let guessCount = 1;
 
 while (parseInt(guessNum) !== randomNum) { //Int coversion must happen here, otherwise comparison will be made between Str and Int values which results into NaN
+    if (guessNum === 'q') break;
   guessCount++;
   if (guessNum < randomNum) {
     guessNum = prompt('Too low. Try a higher guess..');
