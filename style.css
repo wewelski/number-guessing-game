@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin-top: 10ch;;
+}
+
+.heading1, .input-section{
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+  gap: .75rem;
+}
+
+.input-section input {
+  padding: .5rem;
+  max-width: 5ch;
+  font-size: 5rem;
+}
+
+.input-section button {
+  background-color: #3a86ff;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  padding: 1rem 3ch;
+  border-radius: 2rem;
+}
+
+.input-section button:hover {
+  background-color: #a2d2ff;
+  cursor: pointer;
+}
